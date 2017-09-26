@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guess_A_Word", "Guess_A_Word\Guess_A_Word.csproj", "{1D9BA1AB-2B54-4580-9ED0-040DA6F0AA12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessWordGameTest", "GuessWordGameTest\GuessWordGameTest.csproj", "{A8134198-DB1B-4820-88BB-025F093D576D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D9BA1AB-2B54-4580-9ED0-040DA6F0AA12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D9BA1AB-2B54-4580-9ED0-040DA6F0AA12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D9BA1AB-2B54-4580-9ED0-040DA6F0AA12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D9BA1AB-2B54-4580-9ED0-040DA6F0AA12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8134198-DB1B-4820-88BB-025F093D576D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8134198-DB1B-4820-88BB-025F093D576D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8134198-DB1B-4820-88BB-025F093D576D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8134198-DB1B-4820-88BB-025F093D576D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7342024D-B8A8-43AE-912B-3B691101B162}
+	EndGlobalSection
+EndGlobal

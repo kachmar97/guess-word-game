@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Guess_A_Word
 {
-    class TaskProviderImpl : TaskProvider
+    public class TaskProviderImpl : TaskProvider
     {
 
         Task[] tasks = new Task[]

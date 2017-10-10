@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Guess_A_Word
 {
-    interface TaskProvider
+    public interface TaskProvider
     {
         Task Get();
     }

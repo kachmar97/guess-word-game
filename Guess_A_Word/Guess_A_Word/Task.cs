@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Guess_A_Word
 {
-    class Task
+    public class Task
     {
         public string question;
         public string answer;

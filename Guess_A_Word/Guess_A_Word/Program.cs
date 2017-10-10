@@ -22,10 +22,11 @@ namespace Guess_A_Word
                 Console.WriteLine(k);
             }
             else
+            {
                 Console.WriteLine("You lose");
+                Console.WriteLine(k);
+            }
         }
-
-
 
         static void Main(string[] args)
         {

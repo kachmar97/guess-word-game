@@ -18,28 +18,30 @@ namespace RandomNumber
             do
             {
                 k++;
-                Console.Write("Write your number: ");
+                Console.Write("Введiть число: ");
                 string m = Console.ReadLine();
-                if (m.Contains('1') || m.Contains('2') || m.Contains('3') || m.Contains('4') || m.Contains('5') || m.Contains('6') || m.Contains('7') || m.Contains('8') || m.Contains('9') || m.Contains('0'))
+                int mInt;
+                var res  = Int32.TryParse(m, out mInt);
+                if (res)
                 {
                     l = Convert.ToInt32(m);
                     if (l == n)
                     {
                         Console.Clear();
-                        Console.WriteLine("Gratulations!!!");
-                        Console.WriteLine("You are guess the number");
+                        Console.WriteLine("Вiтаємо!!!");
+                        Console.WriteLine("Ви вгадали число");
                     }
                     if (l < n)
-                        Console.WriteLine("Your number is smaller conceived number");
+                        Console.WriteLine("Ваше число менше нiж загадане");
                     if (l > n)
-                        Console.WriteLine("Your nnumber is bigger conceived number");
+
+                        Console.WriteLine("Ваше число бiльше нiж загадане");
                 }
                 else
-                    Console.WriteLine("bad choise");
+                    Console.WriteLine("Поганий вибiр");
             } while (l != n);
-            Console.Write("You guessed after {0} Attempt", k);
+            Console.Write("Ви вгадали пiсля {0} спроби", k);
         }
-
         static void Main(string[] args)
         {
             Program pr = new Program();
